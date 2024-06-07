@@ -23,3 +23,10 @@ Run with hot-reload: `npm run start:dev`
 
 ![](/Illustrations/mock_data_select_all_with_relation.png)
 
+### Create
+
+![](/Illustrations/mock_data_create_user.png)
+
+![](/Illustrations/mock_data_create_relation.png)
+
+![](/Illustrations/mock_data_create_result.png)
