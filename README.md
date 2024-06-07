@@ -44,3 +44,13 @@ When you run `npm run start:dev`, the DB tables will be automatically made
 ![](/Illustrations/users_table.png)
 
 ![](/Illustrations/user_settings_table.png)
+
+### Refactor to DB
+
+![](/Illustrations/db_create_user.png)
+
+![](/Illustrations/db_create_user_relation.png)
+
+![](/Illustrations/db_select_all_with_relation.png)
+
+![](/Illustrations/db_select_one_with_relation.png)
