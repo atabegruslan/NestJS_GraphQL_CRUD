@@ -19,6 +19,8 @@ https://github.com/atabegruslan/NestJS_CRUD/commit/87ec665a3cd2f65bf3f2196c8f24b
 
 ### Select all
 
+When you run `npm run start:dev`, the GraphQL Schema file will be auto generated.
+
 https://github.com/atabegruslan/NestJS_CRUD/commit/dfad9a3bd041f8d3f37151a28777b163de02c2e8
 
 ![](/Illustrations/mock_data_select_all.png)
@@ -85,4 +87,4 @@ https://github.com/atabegruslan/NestJS_CRUD/commit/45a29bd2b930295562544f60e476a
 - Upload file: https://www.youtube.com/watch?v=-2pmmeUjkgs
 - Upload file: https://medium.com/@raj.shrestha777/step-by-step-guide-to-uploading-multiples-files-with-graphql-in-nestjs-ecc4dfe42424
 - Upload file: https://www.elbarryamine.com/blog/how-to-upload-files-with-nest-js-and-graphql
-- Auth
+- Auth: https://www.youtube.com/watch?v=EFDUvzJT_wI
