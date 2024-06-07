@@ -13,13 +13,19 @@ Run with hot-reload: `npm run start:dev`
 
 `npm i @nestjs/graphql @nestjs/apollo @apollo/server graphql`
 
+https://github.com/atabegruslan/NestJS_CRUD/commit/87ec665a3cd2f65bf3f2196c8f24bbd57d0108cb
+
 ## With mock data
 
 ### Select all
 
+https://github.com/atabegruslan/NestJS_CRUD/commit/dfad9a3bd041f8d3f37151a28777b163de02c2e8
+
 ![](/Illustrations/mock_data_select_all.png)
 
 ### Select all with relation
+
+https://github.com/atabegruslan/NestJS_CRUD/commit/9324c2517b14e3511a18ac3f8f1132c5f2066848
 
 ![](/Illustrations/mock_data_select_all_with_relation.png)
 
@@ -28,6 +34,8 @@ Select one with relation
 ![](/Illustrations/mock_data_select_one_with_relation.png)
 
 ### Create
+
+https://github.com/atabegruslan/NestJS_CRUD/commit/2711deef76319c00364964581120db14cb5463d3
 
 ![](/Illustrations/mock_data_create_user.png)
 
@@ -49,7 +57,11 @@ When you run `npm run start:dev`, the DB tables will be automatically made
 
 ![](/Illustrations/user_settings_table.png)
 
+https://github.com/atabegruslan/NestJS_CRUD/commit/371d509ad641e7e896b13abd9cd38b5315002363
+
 ### Refactor to DB
+
+https://github.com/atabegruslan/NestJS_CRUD/commit/45a29bd2b930295562544f60e476a9887ff37fd7
 
 ![](/Illustrations/db_create_user.png)
 
