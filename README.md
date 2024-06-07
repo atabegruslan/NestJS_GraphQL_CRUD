@@ -18,3 +18,8 @@ Run with hot-reload: `npm run start:dev`
 ### Select all
 
 ![](/Illustrations/mock_data_select_all.png)
+
+### Select all with relation
+
+![](/Illustrations/mock_data_select_all_with_relation.png)
+
