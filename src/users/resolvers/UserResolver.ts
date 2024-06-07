@@ -35,6 +35,10 @@ export class UserResolver {
 
 	@Mutation((returns) => User)
 	createUser(
+		// A lazier way would be: @Args('createUserData') createUserData: any
+		// Without using InputTypes: 
+			// @Args('username') username: string
+			// @Args('displayName', {nullable:true}) displayName: string
 		@Args('createUserData') createUserData: CreateUserInput
 	) {
 		// const {username, displayName} = createUserData;
