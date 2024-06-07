@@ -13,3 +13,8 @@ Run with hot-reload: `npm run start:dev`
 
 `npm i @nestjs/graphql @nestjs/apollo @apollo/server graphql`
 
+## With mock data
+
+### Select all
+
+![](/Illustrations/mock_data_select_all.png)
