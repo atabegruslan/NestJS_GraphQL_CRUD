@@ -30,3 +30,17 @@ Run with hot-reload: `npm run start:dev`
 ![](/Illustrations/mock_data_create_relation.png)
 
 ![](/Illustrations/mock_data_create_result.png)
+
+## Intro DB
+
+`npm i @nestjs/typeorm typeorm mysql2`
+
+`CREATE DATABASE nestjs-crud`
+
+When you run `npm run start:dev`, the DB tables will be automatically made
+
+![](/Illustrations/db_tables.png)
+
+![](/Illustrations/users_table.png)
+
+![](/Illustrations/user_settings_table.png)
