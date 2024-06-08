@@ -75,6 +75,8 @@ https://github.com/atabegruslan/NestJS_CRUD/commit/45a29bd2b930295562544f60e476a
 
 ### Complete CRUDs
 
+https://github.com/atabegruslan/NestJS_GraphQL_CRUD/commit/113b65da2d4c840e896fd4d568dea25a1e5d77f8
+
 ![](/Illustrations/complete_crud_1.png)
 
 ![](/Illustrations/complete_crud_2.png)
