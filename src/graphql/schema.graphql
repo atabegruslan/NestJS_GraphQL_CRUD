@@ -22,7 +22,11 @@ type Query {
 
 type Mutation {
   createUser(createUserData: CreateUserInput!): User!
+  updateUser(id: Int!, updateUserData: UpdateUserInput!): User
+  deleteUser(id: Int!): User
   createUserSettings(createUserSettingsData: CreateUserSettingsInput!): UserSetting!
+  updateUserSettings(userId: Int!, updateUserSettingsData: UpdateUserSettingsInput!): UserSetting!
+  deleteUserSettings(userId: Int!): UserSetting
 }
 
 input CreateUserInput {
@@ -30,8 +34,18 @@ input CreateUserInput {
   displayName: String
 }
 
+input UpdateUserInput {
+  username: String!
+  displayName: String
+}
+
 input CreateUserSettingsInput {
   userId: Int!
+  receiveNotifications: Boolean = false
+  receiveEmails: Boolean = false
+}
+
+input UpdateUserSettingsInput {
   receiveNotifications: Boolean = false
   receiveEmails: Boolean = false
 }

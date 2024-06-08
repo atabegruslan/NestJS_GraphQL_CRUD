@@ -73,17 +73,31 @@ https://github.com/atabegruslan/NestJS_CRUD/commit/45a29bd2b930295562544f60e476a
 
 ![](/Illustrations/db_select_one_with_relation.png)
 
+### Complete CRUDs
+
+![](/Illustrations/complete_crud_1.png)
+
+![](/Illustrations/complete_crud_2.png)
+
+![](/Illustrations/complete_crud_3.png)
+
+![](/Illustrations/complete_crud_4.png)
+
+![](/Illustrations/complete_crud_5.png)
+
+![](/Illustrations/complete_crud_6.png)
+
 # Tutorials
 
 - https://www.youtube.com/watch?v=CSfZmyzQAG8&list=PL_cUvD4qzbkw-phjGK2qq0nQiG6gw1cKK&index=3 (Very Good)
 - Support: https://graphql.org/community/resources/official-channels
 - https://stackoverflow.com/questions/66371656/difference-forroot-and-forfeature-nest-js
+- CRUD: https://github.com/devVinit/nestjs-graphql-crud
 
 ---
 
 # Todo
 
-- CRUD: https://github.com/devVinit/nestjs-graphql-crud
 - Upload file: https://www.youtube.com/watch?v=-2pmmeUjkgs
 - Upload file: https://medium.com/@raj.shrestha777/step-by-step-guide-to-uploading-multiples-files-with-graphql-in-nestjs-ecc4dfe42424
 - Upload file: https://www.elbarryamine.com/blog/how-to-upload-files-with-nest-js-and-graphql

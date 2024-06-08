@@ -2,6 +2,7 @@ import { Resolver, Query, Args, Int, ResolveField, Parent, Mutation } from '@nes
 import { User } from '../models/User';
 import { UserSetting } from '../models/UserSetting';
 import { CreateUserInput } from '../utils/CreateUserInput';
+import { UpdateUserInput } from '../utils/UpdateUserInput';
 import { UserService } from '../services/UserService';
 import { mockUsers } from '../__mocks__/mockUsers';
 import { mockUserSettings } from '../__mocks__/mockUserSettings';
@@ -46,5 +47,18 @@ export class UserResolver {
 		// mockUsers.push(newUser);
 		// return newUser;
 		return this.userService.createUser(createUserData);
+	}
+
+	@Mutation((returns) => User, {nullable: true})
+	async updateUser(
+		@Args('id', {type: () => Int}) id: number,
+		@Args('updateUserData') updateUserData: UpdateUserInput
+	) {
+		return await this.userService.updateUser(id, updateUserData);
+	}
+
+	@Mutation((returns) => User, {nullable: true})
+	async deleteUser(@Args('id', {type: () => Int}) id: number) {
+		return await this.userService.deleteUser(id);
 	}
 }
